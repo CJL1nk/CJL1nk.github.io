@@ -58,18 +58,19 @@ html {
     /* To make use of full height of page*/
     height: 100%;
     margin: 0;
+	overflow: hidden;
 }
 
 body {
-	padding:2%;
+	padding: 2%;
 	background-image: linear-gradient(rgb(0, 0, 0), rgb(6, 0, 5), rgb(10, 0, 9));
 	height: 100%;
+	overflow: hidden;
 }
 
 body .main-region {
 	display: grid;
 	place-items: center;
-	margin-top: 5%;
 	align-items: center;
 }
 
