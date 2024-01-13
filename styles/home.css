@@ -1,0 +1,159 @@
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END OF CSS RESET*/
+
+html {
+    /* To make use of full height of page*/
+    height: 100%;
+    margin: 0;
+}
+
+body {
+	background-color: black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(6, 0, 5), rgb(10, 0, 9));
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.main-region {
+	margin: 0% 25% 0% 25%;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.main-region h1 {
+	color: blueviolet;
+	font-family: 'Rubik Glitch', system-ui;
+	font-size: 2em;
+	padding: 1%;
+}
+
+.main-region p {
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(191, 140, 238);
+	font-size: 1.15em;
+	padding: 1%;
+	width: 90%
+}
+
+#fancy {
+	font-family: 'Allura', cursive;
+	font-weight: bold;
+}
+
+.box {
+	padding: 1%;
+}
+
+.box a {
+	float: right;
+	margin: 1%;
+	padding: 2% 3%;
+	border: 1px solid;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+	color: rgb(191, 140, 238);
+	border-color: purple;
+	border-radius: 2px;
+}
+
+.box img {
+	float: right;
+	margin: 5%;
+	padding: 1%;
+	width: 40%;
+	border: 1px solid;
+	border-color: purple;
+	border-radius: 5px;
+}
+
+#yt {
+	color:rgb(213, 0, 0);
+	float: left;
+	border: none;
+	padding: 1%;
+}
+
+#twitch {
+	color:rgb(205, 4, 205);
+	float: left;
+	border: none;
+	padding: 1%;
+}
+
+#twitter {
+	color:rgb(0, 155, 233);
+	float: left;
+	border: none;
+	padding: 1%;
+}
+
+#github {
+	color:rgb(193, 193, 193);
+	float: left;
+	border: none;
+	padding: 1%;
+}
+
+#instagram {
+	color:rgb(234, 148, 0);
+	float: left;
+	border: none;
+	padding: 1%;
+}
