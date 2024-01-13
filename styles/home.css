@@ -113,6 +113,11 @@ body {
 	border-radius: 2px;
 }
 
+.box a:hover {
+	background-color: rgba(128, 0, 128, 0.326);
+	border-color: rgb(191, 140, 238);
+}
+
 .box img {
 	float: right;
 	margin: 5%;
