@@ -92,6 +92,10 @@ body .main-region {
 	color:rgba(192, 0, 192, 0.644);
 }
 
+.mod h1 a:hover {
+	color:rgb(255, 109, 221);
+	font-size: 1.1em;
+}
 .mod p {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 1.25em;
