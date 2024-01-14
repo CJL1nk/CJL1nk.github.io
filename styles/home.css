@@ -56,7 +56,7 @@ html {
     /* To make use of full height of page*/
     height: 100%;
     margin: 0;
-	overflow: hidden;
+	background-image: linear-gradient(rgb(10, 0, 9), rgb(6, 0, 5), rgb(0, 0, 0));
 }
 
 body {
@@ -66,14 +66,13 @@ body {
     align-items: center;
 	height: 100%;
 	background-image: linear-gradient(rgb(0, 0, 0), rgb(6, 0, 5), rgb(10, 0, 9));
-	overflow: hidden;
 }
 
 .main-region {
 	margin: 0% 25% 0% 25%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 .main-region h1 {
@@ -117,9 +116,10 @@ body {
 .box a:hover {
 	background-color: rgba(128, 0, 128, 0.326);
 	border-color: rgb(191, 140, 238);
+	animation: balls 1000ms ease-in-out infinite;
 }
 
-.box img {
+#froge {
 	float: right;
 	margin: 5%;
 	padding: 1%;
@@ -136,11 +136,19 @@ body {
 	padding: 1%;
 }
 
+#yt:hover {
+	animation: boobs 1000ms ease-in-out infinite;
+}
+
 #twitch {
 	color:rgb(205, 4, 205);
 	float: left;
 	border: none;
 	padding: 1%;
+}
+
+#twitch:hover {
+	animation: boobs 1000ms ease-in-out infinite;
 }
 
 #twitter {
@@ -150,6 +158,10 @@ body {
 	padding: 1%;
 }
 
+#twitter:hover {
+	animation: boobs 1000ms ease-in-out infinite;
+}
+
 #github {
 	color:rgb(193, 193, 193);
 	float: left;
@@ -157,9 +169,19 @@ body {
 	padding: 1%;
 }
 
+#github:hover {
+	animation: boobs 1000ms ease-in-out infinite;
+}
+
+
 #instagram {
 	color:rgb(234, 148, 0);
 	float: left;
 	border: none;
 	padding: 1%;
 }
+
+#instagram:hover {
+	animation: boobs 1000ms ease-in-out infinite;
+}
+

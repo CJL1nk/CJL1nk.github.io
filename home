@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GEORGE WASHI98NGTON</title>
     <link rel="stylesheet" href="styles/home.css">
+	<link rel="stylesheet" href="styles/keyframes.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Allura&family=Bitter&family=Lora&family=PT+Serif&display=swap" rel="stylesheet">
@@ -13,6 +14,11 @@
 <body>
 	<div class="main-region">
 
+		<marquee><img src="https://capstasher.neocities.org/88x31Buttons/getfirefox.gif" alt="blacks"> <img src="https://capstasher.neocities.org/88x31Buttons/hgGHmfu.gif" alt="naif"><img src="https://capstasher.neocities.org/88x31Buttons/koolaid.gif" alt="https://capstasher.neocities.org/88x31Buttons/koolaid.gif"></marquee>
+		<br>
+		<marquee direction="right"><img src="https://capstasher.neocities.org/88x31Buttons/realget.gif" alt="blacks"> <img src="https://capstasher.neocities.org/88x31Buttons/twelvemen.gif" alt="naif"><img src="https://capstasher.neocities.org/88x31Buttons/uranohead.gif"></marquee>
+		<br>
+
 		<div class="box">
 			<h1 id="fancy">Yo I'm CJ_Link</h1>
 			<p>I'm an 18 year old CS Cybersec major with experience in C++, C#, Java, Javascript, Rust, and Python. I'm pretty new to modding and the only games I've really modded so far are GD, but from that I've gained a lot of experience with IDA and Cheat Engine.</p>
@@ -20,12 +26,12 @@
 
 		<div class="box">
 			<a href="">I Forgot</a>
-			<a href="mods.html">Mods</a>
-			<a href="blog.html">Me Talking</a>
+			<a href="mods">Mods</a>
+			<a href="blog">Me Talking</a>
 		</div>
 
 		<div class="box">
-			<h1>PISS!!!</h1>
+			<h1 class="line">PISS!!!</h1>
 			<p>I'm like kind of a huge deal (5x grammy award winner) and a bit of a professional internet user so like don't even try to talk to me if ur not famous (at LEAST 50k on YT or 150k on Twitter)</p>
 			<a href="https://www.youtube.com/channel/UCVtQX_2afkqeERGGxFlqWRw" target="_blank" id="yt">YouTube</a>
 			<a href="https://www.twitch.tv/cjlink_" target="_blank" id="twitch">Twitch</a>
@@ -42,7 +48,7 @@
 		</div>
 
 		<div class="box">
-			<img src="images/boris.jpg" alt="Boris">
+			<img src="images/boris.jpg" alt="Boris" id="froge">
 		</div>
 
 	</div>

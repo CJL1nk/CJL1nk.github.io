@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mods by CJ_Linhk</title>
 	<link rel="stylesheet" href="styles/mods.css">
+	<link rel="stylesheet" href="styles/keyframes.css">
 </head>
 <body>
 
-	<a href="home.html" id="homebutton">- HOME -</a>
+	<a href="home" id="homebutton">- HOME -</a>
 
 	<div class="main-region">
 

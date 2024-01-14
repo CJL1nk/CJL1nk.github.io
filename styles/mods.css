@@ -58,14 +58,13 @@ html {
     /* To make use of full height of page*/
     height: 100%;
     margin: 0;
-	overflow: hidden;
+	background-image: linear-gradient(rgb(10, 0, 9), rgb(6, 0, 5), rgb(0, 0, 0));
 }
 
 body {
 	padding: 2%;
 	background-image: linear-gradient(rgb(0, 0, 0), rgb(6, 0, 5), rgb(10, 0, 9));
 	height: 100%;
-	overflow: hidden;
 }
 
 body .main-region {
@@ -95,8 +94,9 @@ body .main-region {
 
 .mod h1 a:hover {
 	color:rgb(255, 109, 221);
-	font-size: 1.1em;
+	transform: scale(125%);
 }
+
 .mod p {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 1.25em;
@@ -117,10 +117,9 @@ body .main-region {
 
 #homebutton:hover {
 	background-color: rgba(128, 0, 128, 0.326);
-	border-color: rgb(191, 140, 238);
 }
 
 .mod {
 	justify-content: center;
-	width: 50%
+	width: 50%;
 }
