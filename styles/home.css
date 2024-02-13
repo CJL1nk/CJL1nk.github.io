@@ -54,9 +54,9 @@ table {
 
 html {
     /* To make use of full height of page*/
-    height: 100%;
     margin: 0;
 	background-image: linear-gradient(rgb(10, 0, 9), rgb(6, 0, 5), rgb(0, 0, 0));
+	overflow: auto;
 }
 
 body {
@@ -64,8 +64,8 @@ body {
 	display: flex;
     justify-content: center;
     align-items: center;
-	height: 100%;
 	background-image: linear-gradient(rgb(0, 0, 0), rgb(6, 0, 5), rgb(10, 0, 9));
+	overflow: auto;
 }
 
 .main-region {
